@@ -1,0 +1,16 @@
+name = "aecoin-store"
+compatibility_date = "2024-09-24"
+pages_build_output_dir = "dist"
+
+[env.production]
+name = "aecoin-store"
+
+[[env.production.d1_databases]]
+binding = "DB"
+database_name = "aecoin-db"
+database_id = "751a9040-41f4-4d03-94ce-57c68e93aded"
+
+[env.production.vars]
+APP_URL = "https://aecoin-store.pages.dev"
+RESEND_FROM_EMAIL = "noreply@aecoinstore.com"
+BILLPLZ_SANDBOX = "false"
