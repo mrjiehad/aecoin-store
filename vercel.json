@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/index.ts": {
-      "runtime": "now-node@18.x"
+      "runtime": "now-node@1.0.0"
     }
   },
   "rewrites": [
