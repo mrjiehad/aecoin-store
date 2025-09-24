@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "api/index.ts": {
-      "runtime": "now-node@1.0.0"
-    }
-  },
   "rewrites": [
     {
       "source": "/(.*)",
