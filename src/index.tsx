@@ -24,8 +24,8 @@ app.use('/api/*', async (c, next) => {
   await next();
 });
 
-// Serve static files
-app.use('/static/*', serveStatic({ root: './public' }));
+// Serve static files - disabled for Vercel compatibility
+// app.use('/static/*', serveStatic({ root: './public' }));
 
 // API Routes
 app.route('/api/products', productRoutes);
